@@ -1,0 +1,3 @@
+[submodule "banking.system-backend.api"]
+	path = banking.system-backend.api
+	url = https://github.com/hyunolike/banking.system-backend.api.git
