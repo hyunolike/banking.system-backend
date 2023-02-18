@@ -1,3 +1,6 @@
 [submodule "banking.system-backend.api"]
 	path = banking.system-backend.api
 	url = https://github.com/hyunolike/banking.system-backend.api.git
+[submodule "banking.system-backend.scheduler"]
+	path = banking.system-backend.scheduler
+	url = https://github.com/hyunolike/banking.system-backend.scheduler.git
