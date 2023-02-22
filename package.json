@@ -1,0 +1,26 @@
+{
+  "name": "banking.system-backend",
+  "version": "1.0.0",
+  "description": "🏦 뱅킹 서버 with Spring Boot",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hyunolike/banking.system-backend.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hyunolike/banking.system-backend/issues"
+  },
+  "homepage": "https://github.com/hyunolike/banking.system-backend#readme",
+  "devDependencies": {
+    "html-webpack-plugin": "^5.5.0",
+    "webpack": "^5.75.0",
+    "webpack-cli": "^5.0.1"
+  }
+}
