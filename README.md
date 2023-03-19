@@ -41,11 +41,11 @@
 ## 주요 서버 소개
 ### 🖥️ Scheduler Server
 #### 🏰 기술 스택 
-<img width="1286" alt="image" src="https://user-images.githubusercontent.com/61215550/226173141-6067328e-e54d-4a7d-ab6d-c61c0050b4ad.png">
+<img width="1405" alt="image" src="https://user-images.githubusercontent.com/61215550/226174295-4a5f1afa-ed2d-4ef6-b3cf-9f9c33663f62.png">
 
 ### 🖥️ API Server
 #### 🏰 기술 스택 
-<img width="1286" alt="image" src="https://user-images.githubusercontent.com/61215550/226173570-472bf6d1-e739-4791-ac3d-1199b7a26abb.png">
+<img width="1405" alt="image" src="https://user-images.githubusercontent.com/61215550/226174263-b27e83bf-2b91-4363-b088-ed3d2615fe48.png">
 
 ## 프로젝트 구조
 (🚧 공사중 ... )
