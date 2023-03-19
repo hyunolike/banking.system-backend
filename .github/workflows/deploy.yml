@@ -49,4 +49,4 @@ jobs:
           password: ${{secrets.NCP_PASS}}
           port: ${{secrets.NCP_PORT}}
           script: |
-            cd ./deploy && ./run.sh
+            cd ./deploy && chmod +x ./run.sh
