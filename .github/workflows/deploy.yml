@@ -22,7 +22,7 @@ jobs:
 
     steps:
       - name: check server
-        run: ls -al
+        run: pwd && ls -al
 
       - name: create folder
         run: mkdir ~/dist
