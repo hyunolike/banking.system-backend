@@ -1,0 +1,20 @@
+version: '3'
+services:
+  api-server:
+    build:
+      context: .
+      dockerfile: ./Dockerfile.api
+    ports:
+      - target: 8182 # 컨테이너 내부 포트
+        published: 8182 # 컨테이너 외부 포트
+    restart: on-failure
+
+  schelduler-server:
+    build:
+      context: .
+      dockerfile: ./Dockerfile.scheduler
+    ports:
+      - target: 8181 # 컨테이너 내부 포트
+        published: 8181 # 컨테이너 외부 포트
+    restart: on-failure
+
