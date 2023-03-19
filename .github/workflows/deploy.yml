@@ -28,5 +28,5 @@ jobs:
           username: ${{ secrets.NCP_USERNAME }}
           password: ${{ secrets.NCP_PASS }}
           port: ${{ secrets.NCP_PORT }}
-          source: "script/*.sh, docker"
-          target: "deploy"
+          source: "script/, docker/"
+          target: "deploy/"
