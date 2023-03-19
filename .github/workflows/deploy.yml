@@ -24,6 +24,12 @@ jobs:
       - name: check server
         run: pwd && ls -al
 
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - name: check server
+        run: pwd && ls -al
+
       - name: create folder
         run: mkdir ~/dist
 
