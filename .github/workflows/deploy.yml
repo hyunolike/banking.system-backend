@@ -32,8 +32,8 @@ jobs:
           username: ${{ secrets.NCP_USERNAME }}
           password: ${{ secrets.NCP_PASS }}
           port: ${{ secrets.NCP_PORT }}
-          source: ./script
-          target: ./
+          source: script
+          target: /
           strip_components: 1
 
       - name: scp docker
@@ -43,6 +43,6 @@ jobs:
           username: ${{ secrets.NCP_USERNAME }}
           password: ${{ secrets.NCP_PASS }}
           port: ${{ secrets.NCP_PORT }}
-          source: ./docker
-          target: ./
+          source: docker
+          target: /
           strip_components: 1
