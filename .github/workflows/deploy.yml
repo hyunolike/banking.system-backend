@@ -40,3 +40,13 @@ jobs:
           source: "docker, script"
           target: "./deploy"
           strip_components: 1
+
+      - name: run shell
+        uses: appleboy/ssh-action@master
+        with:
+          host: ${{secrets.NCP_HOST}}
+          username: ${{secrets.NCP_USERNAME}}
+          password: ${{secrets.NCP_PASS}}
+          port: ${{secrets.NCP_PORT}}
+          script: |
+            cd ./deploy && ./run.sh

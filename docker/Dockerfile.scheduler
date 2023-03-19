@@ -1,7 +1,5 @@
 FROM amazoncorretto:17
 
-WORKDIR ../deploy/
-
 ARG JAR_FILE=./scheduler_server-0.0.1-SNAPSHOT.jar
 COPY ${JAR_FILE} sh-server.jar
 ENTRYPOINT ["java", "-jar", "/sh-server.jar"]
