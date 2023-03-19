@@ -29,4 +29,4 @@ jobs:
           password: ${{ secrets.NCP_PASS }}
           port: ${{ secrets.NCP_PORT }}
           source: "script/, docker/"
-          target: "deploy/"
+          target: "/root/deploy/"
