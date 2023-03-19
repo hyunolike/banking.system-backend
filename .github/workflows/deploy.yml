@@ -28,7 +28,7 @@ jobs:
           username: ${{ secrets.NCP_USERNAME }}
           password: ${{ secrets.NCP_PASS }}
           port: ${{ secrets.NCP_PORT }}
-          source: script/*
+          source: script
           target: ./deloy
           strip_components: 1
 
@@ -39,6 +39,6 @@ jobs:
           username: ${{ secrets.NCP_USERNAME }}
           password: ${{ secrets.NCP_PASS }}
           port: ${{ secrets.NCP_PORT }}
-          source: docker/*
+          source: docker
           target: ./deploy
           strip_components: 1
