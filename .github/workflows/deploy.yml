@@ -21,24 +21,24 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: scp script
+      - name: start scp script
         uses: appleboy/scp-action@master
         with:
           host: ${{ secrets.NCP_HOST }}
           username: ${{ secrets.NCP_USERNAME }}
           password: ${{ secrets.NCP_PASS }}
           port: ${{ secrets.NCP_PORT }}
-          source: script
-          target: deploy
+          source: /script
+          target: ./
           strip_components: 1
 
-      - name: scp docker
+      - name: start scp docker
         uses: appleboy/scp-action@master
         with:
           host: ${{ secrets.NCP_HOST }}
           username: ${{ secrets.NCP_USERNAME }}
           password: ${{ secrets.NCP_PASS }}
           port: ${{ secrets.NCP_PORT }}
-          source: docker
-          target: deploy
+          source: /docker
+          target: ./
           strip_components: 1
