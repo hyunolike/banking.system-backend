@@ -29,7 +29,7 @@ jobs:
           password: ${{ secrets.NCP_PASS }}
           port: ${{ secrets.NCP_PORT }}
           source: script
-          target: ./deloy
+          target: deploy
           strip_components: 1
 
       - name: scp docker
@@ -40,5 +40,5 @@ jobs:
           password: ${{ secrets.NCP_PASS }}
           port: ${{ secrets.NCP_PORT }}
           source: docker
-          target: ./deploy
+          target: deploy
           strip_components: 1
