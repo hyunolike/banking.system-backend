@@ -21,6 +21,21 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+      - name: check server
+        run: ls -al
+
+      - name: create folder
+        run: mkdir ~/dist
+
+      - name: copy script docs
+        run: cp ./script ./dist
+
+      - name: copy docker docs
+        run: cp ./docker ./dist
+
+      - name: check server
+        run: cd dist && ls -al
+
       - name: start scp script
         uses: appleboy/scp-action@master
         with:
@@ -28,5 +43,6 @@ jobs:
           username: ${{ secrets.NCP_USERNAME }}
           password: ${{ secrets.NCP_PASS }}
           port: ${{ secrets.NCP_PORT }}
-          source: "script/, docker/"
-          target: "/root/deploy/"
+          source: "dist/"
+          target: "./"
+          strip_components: 1
