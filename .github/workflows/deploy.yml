@@ -20,10 +20,6 @@ jobs:
   build:
     runs-on: ubuntu-latest
 
-    defaults:
-      run:
-        working-directory: ./
-
     steps:
       - name: scp script
         uses: appleboy/scp-action@master
@@ -32,7 +28,7 @@ jobs:
           username: ${{ secrets.NCP_USERNAME }}
           password: ${{ secrets.NCP_PASS }}
           port: ${{ secrets.NCP_PORT }}
-          source: script
+          source: script/
           target: /
           strip_components: 1
 
@@ -43,6 +39,6 @@ jobs:
           username: ${{ secrets.NCP_USERNAME }}
           password: ${{ secrets.NCP_PASS }}
           port: ${{ secrets.NCP_PORT }}
-          source: docker
+          source: docker/
           target: /
           strip_components: 1
