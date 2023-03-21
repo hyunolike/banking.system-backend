@@ -45,7 +45,7 @@
 
 ### 🖥️ API Server
 #### 🏰 기술 스택 
-<img width="1405" alt="image" src="https://user-images.githubusercontent.com/61215550/226174263-b27e83bf-2b91-4363-b088-ed3d2615fe48.png">
+<img width="1405" alt="image" src="https://user-images.githubusercontent.com/61215550/226583542-80a28a02-1201-4b37-927c-15f39d0c0637.png">
 
 ## 프로젝트 구조
 (🚧 공사중 ... )
