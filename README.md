@@ -47,9 +47,15 @@
 #### 🏰 기술 스택 
 <img width="1405" alt="image" src="https://user-images.githubusercontent.com/61215550/226583542-80a28a02-1201-4b37-927c-15f39d0c0637.png">
 
-## 프로젝트 구조
-(🚧 공사중 ... )
+## 프로젝트 전체 구성도 소개
+<img width="1405" alt="image" src="https://user-images.githubusercontent.com/61215550/226887458-4ddff7fc-e4ab-4376-8506-9e3710891512.png">
 
 
+## 프로젝트 기능 소개
+<img width="1405" alt="image" src="https://user-images.githubusercontent.com/61215550/226890274-ba1b8ed3-1782-4e12-98df-bdd3186d265e.png">
+
+| Scheduler Server |
+| - |
+|![화면 기록 2023-03-22 오후 8 29 00](https://user-images.githubusercontent.com/61215550/226891950-11b4e9d6-ab8c-4804-a3ba-54405f7fcd52.gif)|
 
 <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/"><img alt="크리에이티브 커먼즈 라이선스" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-nd/4.0/88x31.png" /></a><br /><span xmlns:cc="http://creativecommons.org/ns#" property="cc:attributionName">장현호</span>에 의해 작성된 <span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">automated banking system</span>은(는) <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/">크리에이티브 커먼즈 저작자표시-비영리-변경금지 4.0 국제 라이선스</a>에 따라 이용할 수 있습니다.
